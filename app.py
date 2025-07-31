@@ -8,7 +8,7 @@ import os
 # Load model
 @st.cache_resource
 def load_trained_model():
-    return load_model("model/happy_sad_model.h5")
+    return load_model("models/imageclassifier.h5")
 
 model = load_trained_model()
 
